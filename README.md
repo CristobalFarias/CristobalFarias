@@ -98,7 +98,7 @@ Desarrollo plataformas completas: backend, web, app móvil, escritorio e IA, tod
 
 ## 📈 Lenguajes en mis repositorios
 
-Calculado sobre todos mis repositorios, la mayoría privados (las tarjetas de estadísticas de GitHub solo cuentan los públicos):
+Distribución aproximada de los lenguajes que uso:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-40%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 40%">
