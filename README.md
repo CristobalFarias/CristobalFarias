@@ -139,6 +139,12 @@ Uso la IA en dos frentes: como herramienta de desarrollo y como parte de los pro
   <img src="https://streak-stats.demolab.com?user=CristobalFarias&hide_border=true&background=0a120e&ring=10b981&fire=34d399&currStreakLabel=ffffff&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=9ca3af" alt="Racha de contribuciones" />
 </p>
 
+## 🌐 Páginas web
+
+| Sitio | Qué es |
+| --- | --- |
+| [**mimura.cl**](https://mimura.cl) | Plataforma que conecta personas con comercios locales: descubrir negocios en el mapa, comprar y reservar en línea, y herramientas para que cada comercio tenga su página, tienda y reservas. |
+
 ## 🎯 Hacia dónde voy
 
 Quiero consolidarme como **desarrollador full stack**, enfocado en:
