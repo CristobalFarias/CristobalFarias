@@ -5,9 +5,22 @@
 
 <!-- REPO-COUNT:START -->
 <p align="center">
+  <img src="https://img.shields.io/badge/Proyectos_totales-48-059669?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos totales: 48">
   <img src="https://img.shields.io/badge/Proyectos_privados-47-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos privados: 47">
   <img src="https://img.shields.io/badge/Proyectos_p%C3%BAblicos-1-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos públicos: 1">
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Activos_%C3%BAltimos_30_d%C3%ADas-23-047857?style=for-the-badge&logo=githubactions&logoColor=white" alt="Activos últimos 30 días: 23">
+  <img src="https://img.shields.io/badge/Nuevos_en_2026-33-34d399?style=for-the-badge&logo=git&logoColor=black" alt="Nuevos en 2026: 33">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-21_repos-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python: 21 repos">
+  <img src="https://img.shields.io/badge/HTML-8_repos-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML: 8 repos">
+  <img src="https://img.shields.io/badge/TypeScript-5_repos-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript: 5 repos">
+  <img src="https://img.shields.io/badge/C%23-2_repos-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#: 2 repos">
+  <img src="https://img.shields.io/badge/JavaScript-2_repos-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript: 2 repos">
+</p>
+<p align="center"><sub>Actualizado automáticamente el 2026-11-02</sub></p>
 <!-- REPO-COUNT:END -->
 
 <!-- Texto animado -->

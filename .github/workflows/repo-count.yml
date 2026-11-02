@@ -14,25 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Contar repos públicos y privados
+      - name: Calcular estadísticas de repos
         env:
           GH_TOKEN: ${{ secrets.REPO_COUNT_TOKEN }}
-        run: |
-          repos=$(gh api --paginate "user/repos?affiliation=owner&per_page=100" --jq '.[].visibility')
-          public=$(grep -cx public <<<"$repos" || true)
-          private=$(grep -cx private <<<"$repos" || true)
-          echo "Públicos: $public · Privados: $private"
-          block=$(cat <<EOF
-          <!-- REPO-COUNT:START -->
-          <p align="center">
-            <img src="https://img.shields.io/badge/Proyectos_privados-${private}-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos privados: ${private}">
-            <img src="https://img.shields.io/badge/Proyectos_p%C3%BAblicos-${public}-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos públicos: ${public}">
-          </p>
-          <!-- REPO-COUNT:END -->
-          EOF
-          )
-          block=$(sed 's/^          //' <<<"$block")
-          BLOCK="$block" perl -0pi -e 's/<!-- REPO-COUNT:START -->.*?<!-- REPO-COUNT:END -->/$ENV{BLOCK}/s' README.md
+        run: python .github/scripts/repo_stats.py README.md
 
       - name: Guardar cambios
         run: |
