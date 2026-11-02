@@ -131,6 +131,13 @@ Uso la IA en dos frentes: como herramienta de desarrollo y como parte de los pro
 
 ## 📊 Estadísticas
 
+<!-- REPO-COUNT:START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Repos_p%C3%BAblicos-1-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Repos públicos: 1">
+  <img src="https://img.shields.io/badge/Repos_privados-47-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Repos privados: 47">
+</p>
+<!-- REPO-COUNT:END -->
+
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=CristobalFarias&show_icons=true&hide_border=true&bg_color=0a120e&title_color=34d399&icon_color=10b981&text_color=ffffff" alt="Estadísticas de GitHub" />
 </p>

@@ -1,0 +1,43 @@
+name: Contador de repositorios
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Contar repos públicos y privados
+        env:
+          GH_TOKEN: ${{ secrets.REPO_COUNT_TOKEN }}
+        run: |
+          repos=$(gh api --paginate "user/repos?affiliation=owner&per_page=100" --jq '.[].visibility')
+          public=$(grep -cx public <<<"$repos" || true)
+          private=$(grep -cx private <<<"$repos" || true)
+          echo "Públicos: $public · Privados: $private"
+          block=$(cat <<EOF
+          <!-- REPO-COUNT:START -->
+          <p align="center">
+            <img src="https://img.shields.io/badge/Repos_p%C3%BAblicos-${public}-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Repos públicos: ${public}">
+            <img src="https://img.shields.io/badge/Repos_privados-${private}-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Repos privados: ${private}">
+          </p>
+          <!-- REPO-COUNT:END -->
+          EOF
+          )
+          block=$(sed 's/^          //' <<<"$block")
+          BLOCK="$block" perl -0pi -e 's/<!-- REPO-COUNT:START -->.*?<!-- REPO-COUNT:END -->/$ENV{BLOCK}/s' README.md
+
+      - name: Guardar cambios
+        run: |
+          git diff --quiet && { echo "Sin cambios"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: actualiza contador de repositorios"
+          git push
