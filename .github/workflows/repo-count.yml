@@ -25,8 +25,8 @@ jobs:
           block=$(cat <<EOF
           <!-- REPO-COUNT:START -->
           <p align="center">
-            <img src="https://img.shields.io/badge/Repos_p%C3%BAblicos-${public}-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Repos públicos: ${public}">
-            <img src="https://img.shields.io/badge/Repos_privados-${private}-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Repos privados: ${private}">
+            <img src="https://img.shields.io/badge/Proyectos_privados-${private}-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos privados: ${private}">
+            <img src="https://img.shields.io/badge/Proyectos_p%C3%BAblicos-${public}-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos públicos: ${public}">
           </p>
           <!-- REPO-COUNT:END -->
           EOF

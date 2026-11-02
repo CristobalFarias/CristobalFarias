@@ -3,6 +3,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:064e3b,50:059669,100:34d399&height=200&section=header&text=Crist%C3%B3bal%20Far%C3%ADas%20Fredes&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer&descAlignY=58&descSize=18" alt="Banner" />
 </p>
 
+<!-- REPO-COUNT:START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Proyectos_privados-47-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos privados: 47">
+  <img src="https://img.shields.io/badge/Proyectos_p%C3%BAblicos-1-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos públicos: 1">
+</p>
+<!-- REPO-COUNT:END -->
+
 <!-- Texto animado -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=34D399&center=true&vCenter=true&width=640&lines=Full+Stack+Developer;Plataformas+SaaS+con+Django+y+React;Apps+m%C3%B3viles+con+React+Native;Asistentes+con+IA+%C2%B7+Claude+%C2%B7+Gemini;Docker+%C2%B7+AWS+%C2%B7+Terraform" alt="Escribiendo..." />
@@ -130,13 +137,6 @@ Uso la IA en dos frentes: como herramienta de desarrollo y como parte de los pro
 | **GitHub Copilot** | Autocompletado de código en el editor |
 
 ## 📊 Estadísticas
-
-<!-- REPO-COUNT:START -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Repos_p%C3%BAblicos-1-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Repos públicos: 1">
-  <img src="https://img.shields.io/badge/Repos_privados-47-064e3b?style=for-the-badge&logo=github&logoColor=white" alt="Repos privados: 47">
-</p>
-<!-- REPO-COUNT:END -->
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=CristobalFarias&show_icons=true&hide_border=true&bg_color=0a120e&title_color=34d399&icon_color=10b981&text_color=ffffff" alt="Estadísticas de GitHub" />
